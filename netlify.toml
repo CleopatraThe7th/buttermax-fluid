@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm build:app"
+  publish = "dist"
+
+[build.environment]
+  PNPM_FLAGS = "--shamefully-hoist"
+  NODE_VERSION = "18"
+
