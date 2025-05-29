@@ -19,15 +19,6 @@ const Text = () => {
             </DreiText>
 
             <DreiText
-                letterSpacing={-0.07}
-                font={decay_font}
-                position-y={-0.12}
-                fontSize={0.94}
-                color='#000000'>
-               
-            </DreiText>
-
-            <DreiText
                 font={abc_font}
                 maxWidth={10}
                 textAlign='left'
