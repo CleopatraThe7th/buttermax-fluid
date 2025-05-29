@@ -1,0 +1,59 @@
+.
+├── README.md
+├── index.html
+├── lib
+│   ├── Fluid.tsx
+│   ├── constant.ts
+│   ├── effect
+│   │   ├── Fluid.tsx
+│   │   └── FluidEffect.tsx
+│   ├── glsl
+│   │   ├── advection.frag
+│   │   ├── base.vert
+│   │   ├── clear.frag
+│   │   ├── composite.frag
+│   │   ├── curl.frag
+│   │   ├── divergence.frag
+│   │   ├── gradientSubstract.frag
+│   │   ├── pressure.frag
+│   │   ├── splat.frag
+│   │   └── vorticity.frag
+│   ├── glsl.d.ts
+│   ├── hooks
+│   │   ├── useConfig.tsx
+│   │   ├── useDoubleFBO.tsx
+│   │   ├── useFBOs.tsx
+│   │   ├── useMaterials.tsx
+│   │   └── usePointer.tsx
+│   ├── index.ts
+│   ├── types.ts
+│   ├── utils
+│   │   └── colors.ts
+│   └── utils.ts
+├── package.json
+├── pnpm-lock.yaml
+├── src
+│   ├── assets
+│   │   ├── abc-normal.ttf
+│   │   ├── decay.otf
+│   │   ├── github-mark-white.svg
+│   │   ├── img.jpg
+│   │   ├── img2.jpg
+│   │   └── screen_capture.png
+│   ├── example
+│   │   ├── Canvas.tsx
+│   │   ├── Example1.tsx
+│   │   ├── Example2.tsx
+│   │   ├── Example3.tsx
+│   │   ├── Layout.tsx
+│   │   ├── Text.tsx
+│   │   └── tunel.ts
+│   ├── main.tsx
+│   ├── styles.css
+│   └── vite-env.d.ts
+├── structure.txt
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+9 directories, 48 files
